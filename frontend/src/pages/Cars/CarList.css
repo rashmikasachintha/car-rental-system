@@ -1,0 +1,68 @@
+.carlist-page {
+  min-height: 100vh;
+  background: #f7f8fb;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.carlist-header {
+  padding: 32px 40px 8px;
+}
+
+.carlist-header h1 {
+  margin: 0 0 4px;
+  color: #1a2233;
+}
+
+.carlist-header p {
+  color: #6b7280;
+  margin: 0;
+}
+
+.carlist-success {
+  margin: 16px 40px 0;
+  background: #dcfce7;
+  color: #15803d;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.carlist-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px 40px 0;
+}
+
+.carlist-filters button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #374151;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.carlist-filters button.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.carlist-status {
+  padding: 20px 40px;
+  color: #6b7280;
+}
+
+.carlist-status.error {
+  color: #b91c1c;
+}
+
+.carlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 24px 40px 48px;
+}
