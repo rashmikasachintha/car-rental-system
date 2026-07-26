@@ -1,0 +1,292 @@
+.admin-page {
+  min-height: 100vh;
+  background: #f7f8fb;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.admin-header {
+  padding: 32px 40px 8px;
+}
+
+.admin-header h1 {
+  margin: 0 0 4px;
+  color: #1a2233;
+}
+
+.admin-header p {
+  color: #6b7280;
+  margin: 0;
+}
+
+.admin-success {
+  margin: 16px 40px 0;
+  background: #dcfce7;
+  color: #15803d;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.admin-error {
+  margin: 16px 40px 0;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.admin-status {
+  padding: 20px 40px;
+  color: #6b7280;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  padding: 20px 40px 0;
+}
+
+.admin-tabs button {
+  padding: 9px 18px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #374151;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.admin-tabs button.active {
+  background: #1a2233;
+  border-color: #1a2233;
+  color: #fff;
+}
+
+.pending-badge {
+  display: inline-block;
+  background: #ef4444;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+
+.booking-email {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+.btn-approve {
+  background: #dcfce7 !important;
+  color: #15803d !important;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0;
+}
+
+.car-bookings-row td {
+  background: #f7f8fb;
+  padding: 12px 16px 16px !important;
+}
+
+.no-bookings-msg {
+  color: #6b7280;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mini-table th {
+  text-align: left;
+  background: #eef0f4;
+  color: #374151;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
+
+.mini-table td {
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  border-top: 1px solid #eef0f4;
+  color: #1a2233;
+}
+
+.admin-section {
+  padding: 20px 40px 60px;
+}
+
+.admin-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.admin-section-header h2 {
+  color: #1a2233;
+  margin: 0;
+}
+
+.btn-add {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.car-form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.car-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.car-form-wide {
+  grid-column: 1 / -1;
+}
+
+.car-form label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.car-form input,
+.car-form select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.car-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.car-form-actions button {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.btn-danger {
+  background: #fee2e2 !important;
+  color: #b91c1c !important;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table th {
+  text-align: left;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 12px 16px;
+}
+
+.admin-table td {
+  padding: 12px 16px;
+  border-top: 1px solid #f3f4f6;
+  font-size: 0.9rem;
+  color: #1a2233;
+}
+
+.admin-table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.admin-table-actions button {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.status-pill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.status-pill.available,
+.status-pill.confirmed {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status-pill.booked,
+.status-pill.pending {
+  background: #fef9c3;
+  color: #a16207;
+}
+
+.status-pill.under_maintenance,
+.status-pill.cancelled,
+.status-pill.rejected {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.status-pill.completed {
+  background: #dbeafe;
+  color: #1d4ed8;
+}

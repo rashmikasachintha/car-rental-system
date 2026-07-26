@@ -1,0 +1,111 @@
+.booking-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.booking-modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.booking-modal h2 {
+  margin: 0 0 4px;
+  color: #1a2233;
+}
+
+.booking-subtitle {
+  color: #6b7280;
+  margin: 0 0 16px;
+}
+
+.already-booked-box {
+  background: #fef9c3;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+}
+
+.already-booked-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #a16207;
+  margin: 0 0 4px;
+}
+
+.already-booked-range {
+  font-size: 0.8rem;
+  color: #78350f;
+  padding: 2px 0;
+}
+
+.booking-modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-modal label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.booking-modal input {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.booking-total {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: #1a2233;
+}
+
+.booking-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.booking-actions button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn-primary:disabled {
+  background: #93c5fd;
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.booking-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
